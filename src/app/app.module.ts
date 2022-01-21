@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerOneComponent } from './components/banner-one/banner-one.component';
 import { BannerTwoComponent } from './components/banner-two/banner-two.component';
+import { DynamicComponentDirective } from './directives/dynamic-component.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerOneComponent,
-    BannerTwoComponent
+    BannerTwoComponent,
+    DynamicComponentDirective
   ],
   imports: [
     BrowserModule,
